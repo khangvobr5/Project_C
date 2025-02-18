@@ -86,7 +86,7 @@ void inputStudent(Student students[], int *count) {
     }
     Student newStudent;
     int isDuplicate;
-    
+//Id Student
     do {
         isDuplicate = 0;
         printf("Enter Student ID: ");
@@ -108,7 +108,7 @@ void inputStudent(Student students[], int *count) {
             isDuplicate = 1;
         }
     } while (isDuplicate);
-
+//Name Student
     do {
         isDuplicate = 0;
         printf("Enter Student Name: ");
@@ -119,7 +119,7 @@ void inputStudent(Student students[], int *count) {
             isDuplicate = 1;
         }
     } while(isDuplicate);
-
+//Gmail Student
     do {
         isDuplicate = 0;
         printf("Enter Student Email: ");
@@ -143,7 +143,7 @@ void inputStudent(Student students[], int *count) {
             isDuplicate = 1;
         }
     } while (isDuplicate);
-
+//DateOfBirth Student
     do {
         isDuplicate = 0;
         printf("Enter Student Date of Birth (dd mm yyyy): ");
@@ -166,7 +166,7 @@ void inputStudent(Student students[], int *count) {
             isDuplicate = 1;
 		}
     } while (isDuplicate);
-
+//Phone Student
     do {
         isDuplicate = 0;
         printf("Enter Phone Number: ");
@@ -186,7 +186,7 @@ void inputStudent(Student students[], int *count) {
             isDuplicate = 1;
         }
     } while (isDuplicate);
-
+//Industry Student
     do {
         isDuplicate = 0;
         printf("Enter Industry: ");
@@ -198,7 +198,7 @@ void inputStudent(Student students[], int *count) {
             isDuplicate = 1;
         }
     } while (isDuplicate);
-
+//Gender Student
     int tempgenderStudent;
     do {
         printf("Enter Student Gender (0: Male, 1: Female): ");
